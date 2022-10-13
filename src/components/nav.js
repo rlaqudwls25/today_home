@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <header className="header">
       <div className="first_container">
-        <div className="header_wraaper">
+        <div className="header_wraaper header_width">
           <a href="/">
             <ToadyLogo />
           </a>
@@ -37,8 +37,8 @@ const Nav = () => {
         </div>
       </div>
       <div className="second_container">
-        <div className="sub_nav">
-          <div className="flex">
+        <div className="sub_nav header_width">
+          <div className="flex_beteween" style={{ height: "50px" }}>
             <a href="/">홈</a>
             <a href="/">팔로잉</a>
             <a href="/">사진</a>

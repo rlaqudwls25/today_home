@@ -6,15 +6,13 @@
     z-index: 1102;
     transition: top 0.1s ease 0s;
     // top: 0px;
-    width: 1905px;
+    // width: 1905px;
     border-bottom: 1px solid #eaedef;
 
     .header_wraaper {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      max-width: 1256px;
-      margin: 0 auto;
       height: 80px;
       padding: 10px 60px;
     }
@@ -84,8 +82,6 @@
     border-bottom: 1px solid #eaedef;
 
     .sub_nav {
-      max-width: 1256px;
-      margin: 0 auto;
       padding: 0 60px;
     }
     a {
@@ -95,13 +91,5 @@
       font-weight: 500;
       color: #2f3438;
     }
-  }
-
-  .flex {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 50px;
-    margin: 0 -4px;
   }
 }

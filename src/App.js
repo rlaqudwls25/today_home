@@ -4,7 +4,7 @@ import Main from "./components/main";
 
 const App = () => {
   return (
-    <div>
+    <div style={{ height: "100%" }}>
       <Nav />
       <Main />
     </div>

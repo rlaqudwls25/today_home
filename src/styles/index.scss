@@ -11,6 +11,30 @@
   font-family: "Noto Sans KR", sans-serif;
 }
 
+.page_width {
+  width: 100%;
+  max-width: 1136px;
+  margin: 0 auto;
+}
+
+.header_width {
+  width: 100%;
+  max-width: 1256px;
+  margin: 0 auto;
+}
+
+.flex_beteween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 article,
 aside,
 details,
