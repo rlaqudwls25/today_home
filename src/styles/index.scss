@@ -29,6 +29,11 @@
   justify-content: space-between;
 }
 
+.flex_beteween-non-align-items {
+  display: flex;
+  justify-content: space-between;
+}
+
 .flex_center {
   display: flex;
   align-items: center;
@@ -62,6 +67,7 @@ button {
 }
 img {
   width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 a {
