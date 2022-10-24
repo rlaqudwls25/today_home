@@ -28,16 +28,15 @@
   align-items: center;
   justify-content: space-between;
 }
-
-.flex_beteween-non-align-items {
-  display: flex;
-  justify-content: space-between;
-}
-
 .flex_center {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.flex_beteween-non-align-items {
+  display: flex;
+  justify-content: space-between;
 }
 
 article,
@@ -73,6 +72,10 @@ img {
 a {
   display: inline-block;
   text-decoration: none;
+}
+
+a:visited {
+  color: #2f3438;
 }
 ol,
 ul,

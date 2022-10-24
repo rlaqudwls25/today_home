@@ -22,64 +22,84 @@ const Main = () => {
         </div>
       </div>
       <div className="category_box all_page_width">
-        <ul className="flex_center">
+        <ul className="flex_beteween">
           <li>
-            <a>
-              <div></div>
+            <a href="#">
+              <div>
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/shortcut/home_feed_shortcut_sets/166485672496321483.png?w=144" />
+              </div>
               <span>쇼핑하기</span>
             </a>
           </li>
           <li>
-            <a>
-              <div></div>
+            <a href="#">
+              <div>
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/shortcut/home_feed_shortcut_sets/166610587498561195.png?w=144" />
+              </div>
               <span>의식주축제</span>
             </a>
           </li>
           <li>
-            <a>
-              <div></div>
+            <a href="#">
+              <div>
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/shortcut/home_feed_shortcut_sets/166485696782888460.png?w=144" />
+              </div>
               <span>오늘의딜</span>
             </a>
           </li>
           <li>
-            <a>
-              <div></div>
+            <a href="#">
+              <div>
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/shortcut/home_feed_shortcut_sets/166556933560554347.png?w=144" />
+              </div>
               <span>오늘뭐하지</span>
             </a>
           </li>
           <li>
-            <a>
-              <div></div>
+            <a href="#">
+              <div>
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/shortcut/home_feed_shortcut_sets/166485744673486167.png?w=144" />
+              </div>
               <span>간편한끼</span>
             </a>
           </li>
           <li>
-            <a>
-              <div></div>
+            <a href="#">
+              <div>
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/shortcut/home_feed_shortcut_sets/166485744334279663.png?w=144" />
+              </div>
               <span>집들이</span>
             </a>
           </li>
           <li>
-            <a>
-              <div></div>
+            <a href="#">
+              <div>
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/shortcut/home_feed_shortcut_sets/166536291332183981.png?w=144" />
+              </div>
               <span>꿀잼시리즈</span>
             </a>
           </li>
           <li>
-            <a>
-              <div></div>
+            <a href="#">
+              <div>
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/shortcut/home_feed_shortcut_sets/166485741189749105.png?w=144" />
+              </div>
               <span>빠른배송</span>
             </a>
           </li>
           <li>
-            <a>
-              <div></div>
+            <a href="#">
+              <div>
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/shortcut/home_feed_shortcut_sets/166485741760811131.png?w=144" />
+              </div>
               <span>쉬운이사</span>
             </a>
           </li>
           <li>
-            <a>
-              <div></div>
+            <a href="#">
+              <div>
+                <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/shortcut/home_feed_shortcut_sets/166485740201992331.png?w=144" />
+              </div>
               <span>리모델링</span>
             </a>
           </li>
@@ -97,7 +117,7 @@ const Main = () => {
             </div>
           </div>
           <div className="section_img_box">
-            <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/projects/166391028876535174.jpeg?w=360&h=180&c=c" />
+            <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/projects/166556654231599269.jpg?w=360&h=180&c=c" />
             <div className="img_description">
               <p>자연을 집으로 옮긴듯 따듯한 감성 하우스</p>
             </div>
