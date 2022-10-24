@@ -1,11 +1,13 @@
 import React from "react";
 import ToadyLogo from "../svg/today-logo";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch, faCartShopping } from "@fortawesome/free-solid-svg-icons";
 
 const Nav = () => {
   return (
     <header className="header">
       <div className="first_container">
-        <div className="header_wraaper header_width">
+        <div className="header_wraaper flex_beteween header_width">
           <a href="/">
             <ToadyLogo />
           </a>
@@ -21,9 +23,10 @@ const Nav = () => {
             </a>
           </div>
           <div className="search_box">
-            <span className="search_icon"></span>
+            <FontAwesomeIcon icon={faSearch} />
             <input type="text" placeholder="통합검색" autoComplete="off" />
           </div>
+          <FontAwesomeIcon icon={faCartShopping} />
           <div className="auth_box">
             <a href="/">로그인</a>
             <a href="/">회원가입</a>
@@ -38,7 +41,7 @@ const Nav = () => {
       </div>
       <div className="second_container">
         <div className="sub_nav header_width">
-          <div className="flex_beteween" style={{ height: "50px" }}>
+          <div>
             <a href="/">홈</a>
             <a href="/">팔로잉</a>
             <a href="/">사진</a>

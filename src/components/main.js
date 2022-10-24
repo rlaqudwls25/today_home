@@ -123,13 +123,13 @@ const Main = () => {
             </div>
           </div>
           <div className="section_img_box">
-            <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/projects/166391028876535174.jpeg?w=360&h=180&c=c" />
+            <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/projects/166437472661028005.jpg?w=360&h=180&c=c" />
             <div className="img_description">
               <p>아이의 창의력 쑥쑥 바람을 모두 담은 집</p>
             </div>
           </div>
           <div className="section_img_box">
-            <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/projects/166391028876535174.jpeg?w=360&h=180&c=c" />
+            <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/projects/166426834405194779.jpg?w=360&h=180&c=c" />
             <div className="img_description">
               <p>아 주방 갖고 싶다!호텔 같은 욕실까지! 세련된 집</p>
             </div>
@@ -142,28 +142,27 @@ const Main = () => {
         </div>
         <div className="flex_beteween-non-align-items">
           <div className="section_img_box">
-            <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/projects/166391028876535174.jpeg?w=360&h=180&c=c" />
+            <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/projects/cover_images/160929537037664923.png?w=360&h=180&c=c&webp=1" />
             <div className="img_description">
               <p>아 주방 갖고 싶다!호텔 같은 욕실까지! 세련된 집</p>
             </div>
           </div>
           <div className="section_img_box">
-            <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/projects/166391028876535174.jpeg?w=360&h=180&c=c" />
+            <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/projects/cover_images/160647668480636385.gif?w=360&h=180&c=c" />
 
             <div className="img_description">
               <p>주방-다이닝-알파룸 스마트하게 연결한 집</p>
             </div>
           </div>
           <div className="section_img_box">
-            <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/projects/166391028876535174.jpeg?w=360&h=180&c=c" />
+            <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/projects/cover_images/165727029194704134.jpg?w=360&h=180&c=c" />
 
             <div className="img_description">
               <p>주방-다이닝-알파룸 스마트하게 연결한 집</p>
             </div>
           </div>
           <div className="section_img_box">
-            <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/projects/166391028876535174.jpeg?w=360&h=180&c=c" />
-
+            <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/advices/166401242276715562.jpg?w=360&h=180&c=c" />
             <div className="img_description">
               <p>아 주방 갖고 싶다!호텔 같은 욕실까지! 세련된 집</p>
             </div>
