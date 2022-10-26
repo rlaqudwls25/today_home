@@ -17,9 +17,6 @@
 
   .store_box {
     color: #2f3438;
-    font-size: 18px;
-    line-height: 1;
-    font-weight: bold;
     a {
       padding: 0 10px;
       &:first-child {
@@ -33,16 +30,29 @@
         color: black;
       }
     }
+    span {
+      font-size: 18px;
+      font-weight: bold;
+    }
   }
 
   .search_box {
-    box-sizing: border-box;
-    border: 1px solid #c2c8cc;
-    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    width: 25%;
     height: 40px;
     padding: 0 14px;
+    box-sizing: border-box;
+    border: 1px solid #dadde0;
+    border-radius: 4px;
+
+    .search_icon {
+      color: #828c94;
+    }
 
     input {
+      padding: 0 0 0 10px;
+      color: #dadde0;
       font-size: 16px;
       line-height: 24px;
     }
@@ -89,7 +99,7 @@
     }
     a {
       position: relative;
-      margin: 0 7px;
+      margin: 0px 15px 0px 0px;
       font-size: 16px;
       line-height: 20px;
       font-weight: 500;

@@ -23,7 +23,7 @@ const Nav = () => {
             </a>
           </div>
           <div className="search_box">
-            <FontAwesomeIcon icon={faSearch} />
+            <FontAwesomeIcon icon={faSearch} className="search_icon" />
             <input type="text" placeholder="통합검색" autoComplete="off" />
           </div>
           <FontAwesomeIcon icon={faCartShopping} />
