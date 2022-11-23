@@ -1,1 +1,75 @@
+footer {
+  padding: 30px 0px;
+  background: #f7f9fa;
 
+  .footer_inner {
+    width: 1256px;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+
+  .center_info {
+    a {
+      font-size: 12px;
+      line-height: 16px;
+    }
+
+    p {
+      &:nth-child(2) {
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 700;
+        margin: 6px 0px;
+      }
+      &:nth-child(3) {
+        font-size: 12px;
+        line-height: 16px;
+      }
+    }
+  }
+
+  .brand_info {
+    a {
+      font-size: 10px;
+      margin-right: 10px;
+    }
+    line-height: 14px;
+    padding-top: 2px;
+  }
+
+  .company_info {
+    span {
+      font-size: 10px;
+      color: #828c94;
+      margin-right: 10px;
+    }
+    line-height: 10px;
+    margin-top: 10px;
+  }
+
+  .etc {
+    margin-top: 10px;
+    p {
+      font-size: 10px;
+      color: #828c94;
+    }
+  }
+
+  .eng {
+    font-size: 10px;
+    line-height: 14px;
+    margin-top: 10px;
+  }
+  .security_info {
+    display: flex;
+    margin-top: 26px;
+    .security_text {
+      font-size: 10px;
+      color: #828c94;
+    }
+
+    div {
+      margin-right: 10px;
+    }
+  }
+}
