@@ -2,13 +2,7 @@ import React from "react";
 
 const ToadyLogo = () => {
   return (
-    <svg
-      class="css-bsbra5"
-      width="74"
-      height="30"
-      viewBox="0 0 74 30"
-      preserveAspectRatio="xMidYMid meet"
-    >
+    <svg width="74" height="30" viewBox="0 0 74 30">
       <g fill="none" fill-rule="evenodd">
         <path
           fill="#000"

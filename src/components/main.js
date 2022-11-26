@@ -1,4 +1,5 @@
 import React from "react";
+import ReviewStart from "../svg/item-stars-review";
 const Main = () => {
   return (
     <div className="home_page">
@@ -230,6 +231,130 @@ const Main = () => {
           </div>
         </div>
       </section>
+      <div className="today_deal page_width">
+        <div className="today_dael_text">
+          <div>
+            <strong>오늘의딜</strong>
+          </div>
+          <button className="more_view_btn">더보기</button>
+        </div>
+        <div className="today_deal_container flex_beteween">
+          <div className="today_deal_space">
+            <div className="today_deal_image_box">
+              <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/deals/166858453519865550.jpg?gif=1&w=360&h=360&c=c&q=0.8&webp=1" />
+            </div>
+            <div className="today_deal_item_content">
+              <div>
+                <h1>
+                  <span>롯데제과</span>
+                  <span>
+                    [총12개]집에서 따뜻하게! 기린호빵(4입) 팥/야채/피자*3봉
+                  </span>
+                </h1>
+                <div className="deal_price">
+                  <span>38%</span>
+                  <span>8,900 외</span>
+                </div>
+                <p className="star_review_box">
+                  <ReviewStart />
+                  <strong>4.7</strong>
+                  리뷰 33
+                </p>
+                <div className="event_banner">
+                  <span>무료배송</span>
+                  <span>특가</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="today_deal_space">
+            <div className="today_deal_image_box">
+              <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/deals/166745558642511623.jpg?gif=1&w=360&h=360&c=c&q=0.8&webp=1" />
+            </div>
+            <div className="today_deal_item_content">
+              <div>
+                <h1>
+                  <span>아이정</span>
+                  <span>
+                    [오늘의딜/10%쿠폰/1+1] 과부하 차단 멀티탭 무료배송 골라담기
+                  </span>
+                </h1>
+                <div className="deal_price">
+                  <span>38%</span>
+                  <span>6,300 외</span>
+                </div>
+                <p className="star_review_box">
+                  <ReviewStart />
+                  <strong>4.7</strong>
+                  리뷰 15,400
+                </p>
+                <div className="event_banner">
+                  <span>무료배송</span>
+                  <span>특가</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="today_deal_space">
+            <div className="today_deal_image_box">
+              <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/deals/166684693633707582.jpg?gif=1&w=360&h=360&c=c&q=0.8&webp=1" />
+            </div>
+            <div className="today_deal_item_content">
+              <div>
+                <h1>
+                  <span>아웃팅</span>
+                  <span>
+                    [오늘의딜/5%쿠폰] 풍성빽빽 크리스마스 트리 무장식 트리
+                    1.5~2m 외 11종
+                  </span>
+                </h1>
+                <div className="deal_price">
+                  <span>26%</span>
+                  <span>38,900 외</span>
+                </div>
+                <p className="star_review_box">
+                  <ReviewStart />
+                  <strong>4.5</strong>
+                  리뷰 3,357
+                </p>
+                <div className="event_banner">
+                  <span>무료배송</span>
+                  <span>특가</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="today_deal_space">
+            <div className="today_deal_image_box">
+              <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/164266231878771988.jpg?gif=1&w=360&h=360&c=c&q=0.8&webp=1" />
+            </div>
+            <div className="today_deal_item_content">
+              <div>
+                <h1>
+                  <span>프로쉬</span>
+                  <span>
+                    [20%쿠폰][오늘의딜]독일친환경 올인원 식기세척기세제
+                    30개입4개SET+커팅케이스+클리너
+                  </span>
+                </h1>
+                <div className="deal_price">
+                  <span>41%</span>
+                  <span>58,900 외</span>
+                </div>
+                <p className="star_review_box">
+                  <ReviewStart />
+                  <strong>4.7</strong>
+                  리뷰 8,851
+                </p>
+                <div className="event_banner">
+                  <span>무료배송</span>
+                  <span>특가</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="page_width"></div>
     </div>
   );
