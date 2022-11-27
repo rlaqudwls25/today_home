@@ -266,9 +266,7 @@
       align-items: center;
       justify-content: space-between;
       .image_box {
-        border: 1px solid black;
-        width: 172px;
-        height: 306px;
+        width: calc((100% - 100px) / 6);
       }
     }
   }
