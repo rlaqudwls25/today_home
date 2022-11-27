@@ -79,18 +79,21 @@
   }
 
   .section_container {
-    // margin: 40px 0px;
+    // padding: 10px 0px;
     .pd-u-d {
       padding: 20px 0px;
-    }
-    .section_img_box {
-      width: 269px;
-      border-radius: 4px;
-      overflow: hidden;
 
       strong {
         font-size: 20px;
         font-weight: 700;
+      }
+    }
+    .section_img_box {
+      position: relative;
+      border-radius: 4px;
+      .img_box2 {
+        height: 179px;
+        overflow: hidden;
       }
       span {
         font-size: 16px;
@@ -100,19 +103,23 @@
       }
 
       img {
-        height: 175px;
+        object-fit: cover;
         border-radius: 4px;
-
         transition: all 0.2s linear;
+        &:hover {
+          transform: scale(1.05);
+        }
       }
 
-      img:hover {
-        transform: scale(1.1);
-      }
       .img_description {
+        margin-bottom: 20px;
         p {
           font-size: 16px;
           font-weight: 400;
+          span {
+            color: rgb(53, 197, 240);
+            font-weight: 700;
+          }
         }
       }
     }
@@ -148,6 +155,7 @@
         margin-right: 20px;
 
         .today_deal_item_content {
+          margin-top: 5px;
           h1 {
             span {
               display: block;
@@ -215,6 +223,52 @@
           height: 269px;
           // border: 1px solid black;
         }
+      }
+    }
+  }
+
+  .populate_media {
+    margin: 40px auto;
+    .populate_media_title {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .poluate_media_title_wrapper {
+        flex: 1 1 0%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+
+        strong {
+          font-size: 20px;
+          font-weight: 700;
+          color: rgb(47, 52, 56);
+        }
+
+        span {
+          font-size: 14px;
+          font-weight: 400;
+          color: rgb(47, 52, 56);
+          line-height: 18px;
+        }
+      }
+      .more_view_btn {
+        font-weight: 700;
+        font-size: 16px;
+        color: rgb(53, 197, 240);
+      }
+    }
+
+    .image_box_container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .image_box {
+        border: 1px solid black;
+        width: 172px;
+        height: 306px;
       }
     }
   }
