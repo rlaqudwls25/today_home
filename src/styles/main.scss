@@ -114,6 +114,7 @@
       .img_description {
         margin-bottom: 20px;
         p {
+          margin-top: 5px;
           font-size: 16px;
           font-weight: 400;
           span {
@@ -221,7 +222,6 @@
         .today_deal_image_box {
           width: 269px;
           height: 269px;
-          // border: 1px solid black;
         }
       }
     }
@@ -263,11 +263,99 @@
 
     .image_box_container {
       display: flex;
-      align-items: center;
       justify-content: space-between;
       .image_box {
+        position: relative;
         width: calc((100% - 100px) / 6);
+        img {
+          border-radius: 4px;
+        }
+
+        .book_mark {
+          position: absolute;
+          top: 0;
+          left: 12px;
+          padding: 0px;
+
+          span {
+            position: absolute;
+            top: 4px;
+            left: 0px;
+            right: 0px;
+            font-size: 12px;
+            line-height: 20px;
+            font-weight: 700;
+            color: rgb(255, 255, 255);
+            text-align: center;
+          }
+        }
+        .media_text {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          padding: 8px;
+          span {
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 20px;
+            color: rgb(255, 255, 255);
+          }
+        }
+
+        .blank_mark {
+          position: absolute;
+          padding: 8px;
+          font-size: 0px;
+          z-index: 1;
+          right: 0px;
+          bottom: 0px;
+        }
       }
+    }
+  }
+
+  .user_interior_review_container {
+    display: flex;
+    padding: 20px 0px;
+
+    .user_interior_review_title {
+      flex: 1 1 0%;
+      strong {
+        font-weight: 700;
+        color: rgb(47, 52, 56);
+        letter-spacing: -0.3px;
+        font-size: 20px;
+        line-height: 28px;
+      }
+    }
+    button {
+      margin: 0px;
+      padding: 0px;
+      background: none;
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: 700;
+      color: rgb(53, 197, 240);
+      cursor: pointer;
+    }
+  }
+
+  .user_interior_review_box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    h2 {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 700;
+    }
+    p {
+      display: -webkit-box;
+      overflow: hidden;
+      color: rgb(47, 52, 56);
+      font-size: 16px;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
     }
   }
 }

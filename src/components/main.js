@@ -1,5 +1,7 @@
 import React from "react";
 import ReviewStart from "../svg/item-stars-review";
+import BlueMark from "../svg/fulfill-book-mark";
+import BlankMark from "../svg/blank-book-mark";
 const Main = () => {
   return (
     <div className="home_page">
@@ -440,26 +442,247 @@ const Main = () => {
         </div>
         <div className="image_box_container">
           <div className="image_box">
+            <div className="book_mark">
+              <BlueMark />
+              <span>1</span>
+            </div>
             <img src="https://image.ohou.se/i/video-service-prd-s3-bucket-thumbnail/63806837564f1b5f34d17d49/63806837564f1b5f34d17d49.0000001.jpg?w=256&h=480&c=c" />
+            <div className="media_text">
+              <span>오늘의식탁레시피</span>
+            </div>
+            <div className="blank_mark">
+              <BlankMark />
+            </div>
           </div>
           <div className="image_box">
+            <div className="book_mark">
+              <BlueMark />
+              <span>2</span>
+            </div>
             <img src="https://image.ohou.se/i/video-service-prd-s3-bucket-thumbnail/6380d84d564f1b5f34d17d72/6380d84d564f1b5f34d17d72.0000001.jpg?w=256&h=480&c=c" />
+            <div className="media_text">
+              <span>달빛푸른</span>
+            </div>
+            <div className="blank_mark">
+              <BlankMark />
+            </div>
           </div>
           <div className="image_box">
+            <div className="book_mark">
+              <BlueMark />
+              <span>3</span>
+            </div>
             <img src="https://image.ohou.se/i/video-service-prd-s3-bucket-thumbnail/63809ea7564f1b5f34d17d5a/63809ea7564f1b5f34d17d5a.0000001.jpg?w=256&h=480&c=c" />
+            <div className="media_text">
+              <span>Sensejju</span>
+            </div>
+            <div className="blank_mark">
+              <BlankMark />
+            </div>
           </div>
           <div className="image_box">
+            <div className="book_mark">
+              <BlueMark />
+              <span>4</span>
+            </div>
             <img src="https://image.ohou.se/i/video-service-prd-s3-bucket-thumbnail/63809dc3564f1b5f34d17d59/63809dc3564f1b5f34d17d59.0000001.jpg?w=256&h=480&c=c" />
+            <div className="media_text">
+              <span>신비_하우스</span>
+            </div>
+            <div className="blank_mark">
+              <BlankMark />
+            </div>
           </div>
           <div className="image_box">
+            <div className="book_mark">
+              <BlueMark />
+              <span>5</span>
+            </div>
             <img src="https://image.ohou.se/i/video-service-prd-s3-bucket-thumbnail/6380a4a4564f1b5f34d17d5c/6380a4a4564f1b5f34d17d5c.0000001.jpg?w=256&h=480&c=c" />
+            <div className="media_text">
+              <span>모모상점</span>
+            </div>
+            <div className="blank_mark">
+              <BlankMark />
+            </div>
           </div>
           <div className="image_box">
+            <div className="book_mark">
+              <BlueMark />
+              <span>6</span>
+            </div>
             <img src="https://image.ohou.se/i/video-service-prd-s3-bucket-thumbnail/6380918a564f1b5f34d17d54/6380918a564f1b5f34d17d54.0000001.jpg?w=256&h=480&c=c" />
+            <div className="media_text">
+              <span>필로스디자인</span>
+            </div>
+            <div className="blank_mark">
+              <BlankMark />
+            </div>
           </div>
         </div>
       </div>
-      <div className="page_width"></div>
+      <div className="populate_media page_width">
+        <div className="populate_media_title">
+          <div className="poluate_media_title_wrapper">
+            <div>
+              <strong>인기 사진 Top 10</strong>
+            </div>
+            <div>
+              <span>매일 1,2,3위에게 최대 4,000P 지급!</span>
+            </div>
+          </div>
+          <div>
+            <button className="more_view_btn ">더보기</button>
+          </div>
+        </div>
+        <div className="image_box_container">
+          <div className="image_box">
+            <div className="book_mark">
+              <BlueMark />
+              <span>1</span>
+            </div>
+            <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/166944963555971136.jpeg?w=256&h=360&c=c" />
+            <div className="media_text">
+              <span>bebeyul</span>
+            </div>
+            <div className="blank_mark">
+              <BlankMark />
+            </div>
+          </div>
+          <div className="image_box">
+            <div className="book_mark">
+              <BlueMark />
+              <span>2</span>
+            </div>
+            <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/166945002367895184.jpeg?w=256&h=360&c=c" />
+            <div className="media_text">
+              <span>sweetdew_home</span>
+            </div>
+            <div className="blank_mark">
+              <BlankMark />
+            </div>
+          </div>
+          <div className="image_box">
+            <div className="book_mark">
+              <BlueMark />
+              <span>3</span>
+            </div>
+            <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/166947159603385309.jpeg?w=256&h=360&c=c" />
+            <div className="media_text">
+              <span>아일라홈</span>
+            </div>
+            <div className="blank_mark">
+              <BlankMark />
+            </div>
+          </div>
+          <div className="image_box">
+            <div className="book_mark">
+              <BlueMark />
+              <span>4</span>
+            </div>
+            <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/166945901886767174.jpeg?w=256&h=360&c=c" />
+            <div className="media_text">
+              <span>2yujin22</span>
+            </div>
+            <div className="blank_mark">
+              <BlankMark />
+            </div>
+          </div>
+          <div className="image_box">
+            <div className="book_mark">
+              <BlueMark />
+              <span>5</span>
+            </div>
+            <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/166943152521943348.jpeg?w=256&h=360&c=c" />
+            <div className="media_text">
+              <span>dear_myhome</span>
+            </div>
+            <div className="blank_mark">
+              <BlankMark />
+            </div>
+          </div>
+          <div className="image_box">
+            <div className="book_mark">
+              <BlueMark />
+              <span>6</span>
+            </div>
+            <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/snapshots/166945584554990401.jpeg?w=256&h=360&c=c" />
+            <div className="media_text">
+              <span>딸기나뭇잎</span>
+            </div>
+            <div className="blank_mark">
+              <BlankMark />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="page_width">
+        <div className="user_interior_review_container">
+          <div className="user_interior_review_title">
+            <strong>유저들의 인테리어 시공 리뷰</strong>
+          </div>
+          <div>
+            <button>더보기</button>
+          </div>
+        </div>
+        <div className="user_interior_review_box">
+          <div>
+            <div>
+              <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/expert_reviews/166849705409106149.JPG?w=480&h=256&c=c" />
+              <div>
+                <h2>더케이컴퍼니 청주점</h2>
+                <p>
+                  항상 친잘하게 응대해주시고 예민보스인 제 작은의견까지 전부
+                  반영해 주셨어요. 인테리어 여기저기 알아보시지 말고 그냥 여기서
+                  하세요. 사장님 너무 좋구요. 가격도 좋구요. 사장님이
+                  추턴해주시는 것들로 인테리어했는데 알아보니 다들
+                  좋은것들이네요. 다른데 견적받다가 힘빼지마시고 여기서하세요!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/expert_reviews/161849900793318927.jpg?w=480&h=256&c=c" />
+              <div>
+                <h2>디에이치(THE H)디자인</h2>
+                <p>
+                  시공사례보고 너무 예뻐서 여긴 꼭 상담받아봐야지 했는데 처음
+                  상담했을 때 부터 친절하셨고 인테리어 1도 모르는 사람이라
+                  추천을 많이 해달라고했는데 젊으신분이라 젊은감각으로
+                  호불호없이 예쁜 집으로 만들어주셨어요ㅋ 가계약해놓고 일정 다
+                  짜놓은 상태였는데 계약하기 직전에 제 사정상 문제가생겨
+                  수정요청드렸는데 너무 친절하게 제 사정에 맞춰 수정해주셨구요.
+                  시공할 때 제가 왔다갔다 못했는데 하루하루 공사 사진찍어서
+                  확인해주시고 꼼꼼하게 설명 다 해주셨어요ㅋ 혹시 살다가
+                  문제있으면 연락달라고하셔서 as걱정없구요. 궁금한게있으면 바로
+                  물어보고 제 문의사항 확인하시면 답장도 빨라서 좋았어요^^ 제
+                  생에 첫 집이라 이쁘게 잘 꾸미고 싶었는데 집 자체가 예뻐져서
+                  좋아요!ㅋ
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/cards/expert_reviews/166487894376349190.jpg?w=480&h=256&c=c" />
+              <div>
+                <h2>디자인공간</h2>
+                <p>
+                  여러군데 업체를 미팅했었는데 디자인공간 사장님께서 저희의
+                  요구사항을 더 많이 반영해주셨고 공사진행 상황을 사진으로
+                  수시로 보내주시어 공유해 주셨던 점이 믿고 맡길 수 있었습니다.
+                  공사 중 수정 및 요구사항이 있었는데 친절히 유연하게 잘
+                  대처해주셔서 마무리가 잘 되었습니다. 입주 후에도 개인적인
+                  실수로 보수할 부분이 발생했는데 끝까지 신경써주시려는 모습이
+                  책임감있게 느껴졌고 감사했습니다. 주변 지인분이 소개시켜달라고
+                  하면 믿고 추천해드리고 싶습니다.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
