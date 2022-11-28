@@ -27,7 +27,9 @@ const Nav = () => {
               <FontAwesomeIcon icon={faSearch} className="search_icon" />
               <input type="text" placeholder="통합검색" autoComplete="off" />
             </div>
-            <FontAwesomeIcon icon={faCartShopping} />
+            <div className="shopping_cart">
+              <FontAwesomeIcon icon={faCartShopping} />
+            </div>
             <div className="auth_box">
               <a href="/">로그인</a>
               <a href="/">회원가입</a>
