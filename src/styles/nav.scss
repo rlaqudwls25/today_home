@@ -6,13 +6,15 @@
     z-index: 1102;
     transition: top 0.1s ease 0s;
     top: 0px;
-    width: 1905px;
+    width: 100%;
     background: #ffffff;
     border-bottom: 1px solid #eaedef;
 
     .header_wraaper {
       height: 80px;
       padding: 10px 60px;
+      width: 1256px;
+      margin: 0 auto;
     }
   }
 }

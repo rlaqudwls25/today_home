@@ -8,7 +8,7 @@ const Nav = () => {
     <header>
       <div className="nav">
         <div className="nav_fiexed">
-          <div className="header_wraaper flex_beteween header_width">
+          <div className="header_wraaper flex_beteween">
             <a href="/">
               <ToadyLogo />
             </a>
