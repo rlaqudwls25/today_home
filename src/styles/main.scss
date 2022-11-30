@@ -1,9 +1,13 @@
 .home_page {
-  margin-bottom: 60px;
+  width: 1256px;
+  margin: 0 auto;
+
+  .home_page_margin_space {
+    margin-bottom: 60px;
+  }
 
   .home_container {
     display: flex;
-    max-width: 100%;
     width: 1136px;
     height: 546px;
     margin-left: auto;
