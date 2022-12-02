@@ -12,9 +12,14 @@
 
     .header_wraaper {
       height: 80px;
-      padding: 10px 60px;
-      width: 1256px;
+      padding: 10px 0px;
+      width: 100%;
+      max-width: 1256px;
       margin: 0 auto;
+
+      @media (max-width: 1256px) {
+        width: 100%;
+      }
     }
   }
 }
@@ -37,6 +42,9 @@
   span {
     font-size: 18px;
     font-weight: bold;
+    @media (max-width: 1024px) {
+      font-size: 14px;
+    }
   }
 }
 
@@ -60,6 +68,14 @@
     padding: 0 0 0 10px;
     line-height: 24px;
   }
+
+  @media (max-width: 1024px) {
+    width: 18%;
+  }
+
+  @media (max-width: 768px) {
+    width: 10%;
+  }
 }
 
 .shopping_cart {
@@ -75,10 +91,16 @@
 
 .auth_box {
   a {
-    font-size: 16px;
-    line-height: 18px;
-    color: #2f3438;
-    padding: 0 10px;
+    span {
+      font-size: 16px;
+      line-height: 18px;
+      color: #2f3438;
+      padding: 0 10px;
+
+      @media (max-width: 1024px) {
+        font-size: 13px;
+      }
+    }
   }
 }
 
@@ -102,7 +124,6 @@
 
   .sub_nav {
     min-width: 1256px;
-    padding: 0 60px;
   }
   > div {
     display: flex;

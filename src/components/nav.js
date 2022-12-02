@@ -31,9 +31,15 @@ const Nav = () => {
               <FontAwesomeIcon icon={faCartShopping} />
             </div>
             <div className="auth_box">
-              <a href="/">로그인</a>
-              <a href="/">회원가입</a>
-              <a href="/">고객센터</a>
+              <a href="/">
+                <span>로그인</span>
+              </a>
+              <a href="/">
+                <span>회원가입</span>
+              </a>
+              <a href="/">
+                <span>고객센터</span>
+              </a>
             </div>
             <div className="write_box">
               <button>
