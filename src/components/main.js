@@ -309,7 +309,7 @@ const Main = () => {
             </div>
             <button className="more_view_btn">더보기</button>
           </div>
-          <div className="today_deal_container flex_beteween">
+          <div className="today_deal_container">
             <div className="today_deal_space">
               <div className="today_deal_image_box">
                 <img src="https://image.ohou.se/i/bucketplace-v2-development/uploads/deals/166858453519865550.jpg?gif=1&w=360&h=360&c=c&q=0.8&webp=1" />

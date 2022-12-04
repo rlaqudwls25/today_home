@@ -158,12 +158,13 @@
     }
 
     .today_deal_container {
-      position: relative;
+      display: flex;
 
       .today_deal_space {
         margin-right: 20px;
 
         .today_deal_item_content {
+          max-width: 300px;
           margin-top: 5px;
           h1 {
             span {
@@ -226,11 +227,9 @@
             }
           }
         }
-
-        .today_deal_image_box {
-          width: 269px;
-          height: 269px;
-        }
+      }
+      .today_deal_image_box {
+        width: auto;
       }
     }
   }
