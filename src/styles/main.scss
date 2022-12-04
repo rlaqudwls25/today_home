@@ -9,7 +9,18 @@
     height: 546px;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px 0 0;
+
+    @media (min-width: 1256px) {
+      padding: 30px 0px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1256px) {
+      padding: 0 25px;
+    }
+
+    @media (max-width: 768px) {
+      padding: 0 10px;
+    }
 
     .image_box {
       position: relative;
@@ -55,6 +66,18 @@
   .category_box {
     max-width: 1256px;
     margin: 0 auto;
+
+    @media (min-width: 1256px) {
+      padding: 0px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1256px) {
+      padding: 0px 30px;
+    }
+
+    @media (max-width: 768px) {
+      padding: 0px 10px;
+    }
     ul {
       height: 164px;
 
@@ -88,6 +111,18 @@
 
   .section_container {
     // padding: 10px 0px;
+
+    @media (min-width: 1256px) {
+      padding: 0px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1256px) {
+      padding: 0px 30px;
+    }
+
+    @media (max-width: 768px) {
+      padding: 0px 10px;
+    }
     .pd-u-d {
       padding: 20px 0px;
 
@@ -140,6 +175,17 @@
 
   .today_deal {
     margin: 40px auto;
+    @media (min-width: 1256px) {
+      padding: 0px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1256px) {
+      padding: 0px 30px;
+    }
+
+    @media (max-width: 768px) {
+      padding: 0px 10px;
+    }
     .today_dael_text {
       display: flex;
       align-items: center;
@@ -161,7 +207,7 @@
       display: flex;
 
       .today_deal_space {
-        margin-right: 20px;
+        margin-right: 10px;
 
         .today_deal_item_content {
           max-width: 300px;
@@ -236,6 +282,18 @@
 
   .populate_media {
     margin: 40px auto;
+
+    @media (min-width: 1256px) {
+      padding: 0px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1256px) {
+      padding: 0px 30px;
+    }
+
+    @media (max-width: 768px) {
+      padding: 0px 10px;
+    }
     .populate_media_title {
       width: 100%;
       display: flex;
@@ -321,29 +379,42 @@
     }
   }
 
-  .user_interior_review_container {
-    display: flex;
-    padding: 20px 0px;
-
-    .user_interior_review_title {
-      flex: 1 1 0%;
-      strong {
-        font-weight: 700;
-        color: rgb(47, 52, 56);
-        letter-spacing: -0.3px;
-        font-size: 20px;
-        line-height: 28px;
-      }
+  .user_review {
+    @media (min-width: 1256px) {
+      padding: 20px 0px;
     }
-    button {
-      margin: 0px;
-      padding: 0px;
-      background: none;
-      font-size: 16px;
-      line-height: 20px;
-      font-weight: 700;
-      color: rgb(53, 197, 240);
-      cursor: pointer;
+
+    @media (min-width: 768px) and (max-width: 1256px) {
+      padding: 20px 30px;
+    }
+
+    @media (max-width: 768px) {
+      padding: 20px 10px;
+    }
+    .user_interior_review_container {
+      display: flex;
+      padding: 20px 0px;
+
+      .user_interior_review_title {
+        flex: 1 1 0%;
+        strong {
+          font-weight: 700;
+          color: rgb(47, 52, 56);
+          letter-spacing: -0.3px;
+          font-size: 20px;
+          line-height: 28px;
+        }
+      }
+      button {
+        margin: 0px;
+        padding: 0px;
+        background: none;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        color: rgb(53, 197, 240);
+        cursor: pointer;
+      }
     }
   }
 

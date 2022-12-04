@@ -622,7 +622,7 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <div className="page_width">
+        <div className="user_review page_width">
           <div className="user_interior_review_container">
             <div className="user_interior_review_title">
               <strong>유저들의 인테리어 시공 리뷰</strong>
