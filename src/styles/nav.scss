@@ -13,7 +13,6 @@
     .header_wraaper {
       width: 100%;
       height: 80px;
-
       max-width: 1256px;
       margin: 0 auto;
       @media (min-width: 1256px) {
@@ -25,6 +24,7 @@
       }
 
       @media (max-width: 768px) {
+        min-width: 600px;
         padding: 10px 10px;
       }
     }
@@ -50,7 +50,7 @@
     font-size: 18px;
     font-weight: bold;
     @media (max-width: 1024px) {
-      font-size: 14px;
+      font-size: 12px;
     }
   }
 }
@@ -85,6 +85,7 @@
   }
 
   @media (max-width: 768px) {
+    display: none;
     width: 10%;
 
     .search_icon {
@@ -102,6 +103,10 @@
   svg {
     width: 24px;
     height: 24px;
+  }
+
+  @media (max-width: 800px) {
+    display: none;
   }
 }
 
@@ -138,8 +143,13 @@
 .second_container {
   border-bottom: 1px solid #eaedef;
 
+  @media (max-width: 768px) {
+    overflow: auto;
+    white-space: nowrap;
+  }
+
   .sub_nav {
-    min-width: 1256px;
+    min-width: 675px;
 
     @media (min-width: 1256px) {
       padding: 0px;

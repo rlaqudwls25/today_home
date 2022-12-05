@@ -8,43 +8,45 @@ const Nav = () => {
     <header>
       <div className="nav">
         <div className="nav_fiexed">
-          <div className="header_wraaper flex_beteween">
-            <a href="/">
-              <ToadyLogo />
-            </a>
-            <div className="store_box">
+          <div className="nav_over_width">
+            <div className="flex_beteween header_wraaper">
               <a href="/">
-                <span>커뮤니티</span>
+                <ToadyLogo />
               </a>
-              <a href="/">
-                <span>스토어</span>
-              </a>
-              <a href="/">
-                <span>이사/시공/수리</span>
-              </a>
-            </div>
-            <div className="search_box">
-              <FontAwesomeIcon icon={faSearch} className="search_icon" />
-              <input type="text" placeholder="통합검색" autoComplete="off" />
-            </div>
-            <div className="shopping_cart">
-              <FontAwesomeIcon icon={faCartShopping} />
-            </div>
-            <div className="auth_box">
-              <a href="/">
-                <span>로그인</span>
-              </a>
-              <a href="/">
-                <span>회원가입</span>
-              </a>
-              <a href="/">
-                <span>고객센터</span>
-              </a>
-            </div>
-            <div className="write_box">
-              <button>
-                <span>글쓰기</span>
-              </button>
+              <div className="store_box">
+                <a href="/">
+                  <span>커뮤니티</span>
+                </a>
+                <a href="/">
+                  <span>스토어</span>
+                </a>
+                <a href="/">
+                  <span>이사/시공/수리</span>
+                </a>
+              </div>
+              <div className="search_box">
+                <FontAwesomeIcon icon={faSearch} className="search_icon" />
+                <input type="text" placeholder="통합검색" autoComplete="off" />
+              </div>
+              <div className="shopping_cart">
+                <FontAwesomeIcon icon={faCartShopping} />
+              </div>
+              <div className="auth_box">
+                <a href="/">
+                  <span>로그인</span>
+                </a>
+                <a href="/">
+                  <span>회원가입</span>
+                </a>
+                <a href="/">
+                  <span>고객센터</span>
+                </a>
+              </div>
+              <div className="write_box">
+                <button>
+                  <span>글쓰기</span>
+                </button>
+              </div>
             </div>
           </div>
         </div>
