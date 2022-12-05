@@ -76,6 +76,8 @@
     }
 
     @media (max-width: 768px) {
+      overflow: auto;
+      white-space: nowrap;
       padding: 0px 10px;
     }
     ul {
@@ -436,8 +438,4 @@
       -webkit-box-orient: vertical;
     }
   }
-
-  // @media (max-width: 1256px) {
-  //   width: 100%;
-  // }
 }
